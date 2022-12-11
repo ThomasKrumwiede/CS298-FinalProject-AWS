@@ -28,5 +28,5 @@ print(json.dumps(my_dictionary, indent=2))
 
 
 #place data in a text file
-with open('testResults.txt', 'w') as f:
+with open('test.txt', 'w') as f:
     f.write(json.dumps(my_dictionary, indent=2))

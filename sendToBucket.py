@@ -12,5 +12,5 @@ s3_resource = boto3.resource('s3')
 file_name='test.txt'
 bucket_name = 'student5-bucket'
 
-s3.Object('student5-bucket', first_file_name).upload_file(
+s3.Object('student5-bucket', file_name).upload_file(
     Filename=first_file_name)

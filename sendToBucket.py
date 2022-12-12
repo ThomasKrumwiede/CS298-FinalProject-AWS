@@ -13,4 +13,4 @@ file_name='test.txt'
 bucket_name = 'student5-bucket'
 
 s3.Object('student5-bucket', file_name).upload_file(
-    Filename=first_file_name)
+    Filename=file_name)
